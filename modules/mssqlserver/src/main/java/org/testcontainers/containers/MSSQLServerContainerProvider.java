@@ -1,5 +1,8 @@
 package org.testcontainers.containers;
 
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainer;
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainerProvider;
+
 /**
  * Factory for MS SQL Server containers.
  */

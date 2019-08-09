@@ -2,7 +2,7 @@ package org.testcontainers.spock
 
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
-import org.testcontainers.containers.PostgreSQLContainer
+import org.testcontainers.containers.postgresql.PostgreSQLContainer
 import spock.lang.Shared
 import spock.lang.Specification
 

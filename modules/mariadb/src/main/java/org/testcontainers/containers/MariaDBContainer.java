@@ -1,5 +1,7 @@
 package org.testcontainers.containers;
 
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainer;
+
 /**
  * Container implementation for the MariaDB project.
  *

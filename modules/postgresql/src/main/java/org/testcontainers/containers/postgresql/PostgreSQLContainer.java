@@ -1,6 +1,7 @@
-package org.testcontainers.containers;
+package org.testcontainers.containers.postgresql;
 
 import org.jetbrains.annotations.NotNull;
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainer;
 import org.testcontainers.containers.wait.LogMessageWaitStrategy;
 
 import java.time.Duration;

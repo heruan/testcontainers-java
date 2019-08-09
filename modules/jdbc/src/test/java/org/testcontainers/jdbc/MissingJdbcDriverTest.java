@@ -2,7 +2,7 @@ package org.testcontainers.jdbc;
 
 import com.google.common.base.Throwables;
 import org.junit.Test;
-import org.testcontainers.containers.JdbcDatabaseContainer;
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainer;
 
 import java.sql.Connection;
 import java.sql.SQLException;

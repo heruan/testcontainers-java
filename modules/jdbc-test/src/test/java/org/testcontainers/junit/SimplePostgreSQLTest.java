@@ -1,7 +1,7 @@
 package org.testcontainers.junit;
 
 import org.junit.Test;
-import org.testcontainers.containers.PostgreSQLContainer;
+import org.testcontainers.containers.postgresql.PostgreSQLContainer;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

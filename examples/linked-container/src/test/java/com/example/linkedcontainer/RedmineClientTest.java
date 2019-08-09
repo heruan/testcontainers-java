@@ -3,7 +3,7 @@ package com.example.linkedcontainer;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.RuleChain;
-import org.testcontainers.containers.PostgreSQLContainer;
+import org.testcontainers.containers.postgresql.PostgreSQLContainer;
 
 import static org.junit.Assert.assertEquals;
 

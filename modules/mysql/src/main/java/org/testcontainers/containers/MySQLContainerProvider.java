@@ -1,5 +1,7 @@
 package org.testcontainers.containers;
 
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainer;
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainerProvider;
 import org.testcontainers.jdbc.ConnectionUrl;
 
 import java.util.Objects;

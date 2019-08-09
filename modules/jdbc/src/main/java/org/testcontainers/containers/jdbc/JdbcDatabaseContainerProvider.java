@@ -1,4 +1,4 @@
-package org.testcontainers.containers;
+package org.testcontainers.containers.jdbc;
 
 import org.testcontainers.jdbc.ConnectionUrl;
 

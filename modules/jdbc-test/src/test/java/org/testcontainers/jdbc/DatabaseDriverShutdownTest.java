@@ -2,7 +2,7 @@ package org.testcontainers.jdbc;
 
 import org.junit.AfterClass;
 import org.junit.Test;
-import org.testcontainers.containers.JdbcDatabaseContainer;
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainer;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

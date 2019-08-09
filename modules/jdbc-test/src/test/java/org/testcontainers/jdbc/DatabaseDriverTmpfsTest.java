@@ -3,7 +3,7 @@ package org.testcontainers.jdbc;
 import org.junit.Rule;
 import org.junit.Test;
 import org.testcontainers.containers.Container;
-import org.testcontainers.containers.JdbcDatabaseContainer;
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainer;
 import org.testcontainers.testsupport.Flaky;
 import org.testcontainers.testsupport.FlakyTestJUnit4RetryRule;
 

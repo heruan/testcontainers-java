@@ -1,5 +1,7 @@
-package org.testcontainers.containers;
+package org.testcontainers.containers.postgresql;
 
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainer;
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainerProvider;
 import org.testcontainers.jdbc.ConnectionUrl;
 
 import java.util.Objects;

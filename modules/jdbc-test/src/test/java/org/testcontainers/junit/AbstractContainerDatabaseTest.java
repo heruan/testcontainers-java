@@ -3,7 +3,7 @@ package org.testcontainers.junit;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 import org.junit.After;
-import org.testcontainers.containers.JdbcDatabaseContainer;
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainer;
 
 import javax.sql.DataSource;
 import java.sql.ResultSet;

@@ -1,8 +1,10 @@
-package org.testcontainers.containers;
+package org.testcontainers.containers.jdbc;
 
 import com.github.dockerjava.api.command.InspectContainerResponse;
 import lombok.NonNull;
 import org.jetbrains.annotations.NotNull;
+import org.testcontainers.containers.ContainerLaunchException;
+import org.testcontainers.containers.GenericContainer;
 import org.testcontainers.containers.traits.LinkableContainer;
 import org.testcontainers.delegate.DatabaseDelegate;
 import org.testcontainers.ext.ScriptUtils;

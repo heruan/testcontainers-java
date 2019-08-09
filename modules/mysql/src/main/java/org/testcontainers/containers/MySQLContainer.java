@@ -1,6 +1,7 @@
 package org.testcontainers.containers;
 
 import org.jetbrains.annotations.NotNull;
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainer;
 
 import java.util.HashSet;
 import java.util.Set;

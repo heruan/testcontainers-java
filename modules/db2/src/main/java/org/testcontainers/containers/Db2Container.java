@@ -2,6 +2,7 @@ package org.testcontainers.containers;
 
 import com.github.dockerjava.api.command.InspectContainerResponse;
 import org.testcontainers.DockerClientFactory;
+import org.testcontainers.containers.jdbc.JdbcDatabaseContainer;
 import org.testcontainers.containers.output.OutputFrame;
 import org.testcontainers.containers.output.WaitingConsumer;
 import org.testcontainers.containers.wait.strategy.LogMessageWaitStrategy;
